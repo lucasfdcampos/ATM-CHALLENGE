@@ -52,16 +52,15 @@
   - [x] Fechar caixa (Relatorio de fechamento)
   
   
-  
-  
  ---
  ## EXTRAS
  - [ ] Docker 
  - [x] Processo de resolução do desafio: README-LUCAS.md
+ - [x] Separation of Concerns
   
   
  ---
  ## PROBLEMAS
- - [ ] Problemas entre versão JDK e tomcat.
+ - [ ] Problemas entre versão JDK e tomcat. Provavelmente seja entre dependencias do Maven.
 
  
