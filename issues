@@ -1,0 +1,11 @@
+# ISSUES
+- [] Especificar tarefas e escopo
+
+
+---
+- [] **Configurações Spring JPA**
+  - [] dependencias POM.xml
+  - [] classes Spring Framework 
+    - [] SpringInitConfig
+    - [] SpringJpaConfig
+    - [] SpringRootConfig
