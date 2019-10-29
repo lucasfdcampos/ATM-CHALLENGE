@@ -29,9 +29,10 @@
   
 ---
 ### DAO
-- [] **Classes DAO**
-  - [] Implementacoes
-
+- [x] **Classes DAO**
+  - [x] Implementacoes
+  - [x] Metodos necessarios para manipulacao das entidades
+  
 ---
 ### SERVICO
 - [] **Classes de Servico**
