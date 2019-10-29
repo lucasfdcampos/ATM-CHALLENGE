@@ -35,13 +35,13 @@
   
 ---
 ### SERVICO
-- [] **Classes de Servico**
-  - [] Implementacoes
-  - [] Funcao de distribuicao de notas no tipo de movimento SAQUE
+- [x] **Classes de Servico**
+  - [x] Implementacoes
+  - [x] Funcao de distribuicao de notas no tipo de movimento SAQUE
 
 ---
 ### CONTROLER
-- [] **Classe responsavel por disponibilizar os servicos do Caixa ATM
+- [] **Classe responsavel por disponibilizar os servicos do Caixa ATM**
   - [] Metodo cadastrar caixa ATM
   - [] Abertura de caixa
   - [] Cadastrar conta
