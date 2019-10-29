@@ -46,6 +46,7 @@ Método para cadastro do Caixa ATM. Necessário envio do objeto CaixaAtm.
 
 Método para abertura do Caixa ATM. Necessário o envio do objeto CaixaAtm. 
 Neste método, como também no método citado acima o status do caixa é setado como ABERTO. 
+
 Necessário o envio do Id no objeto. Há excessões para verificar se o caixa é válido e existente.
 
 **Método: abrirCaixaAtm**
