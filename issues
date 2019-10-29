@@ -1,6 +1,7 @@
 # ISSUES
+---
+### ESCOPO
 - [x] Especificar tarefas e escopo
-
 
 ---
 ### CONFIGURACOES
@@ -16,6 +17,7 @@
  
 - [x] **MySQL** 
   - [x] dependencia POM.xml
+  - [x] verificar versão
   
 ---
 ### DOMINIO 
