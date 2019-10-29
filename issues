@@ -1,11 +1,29 @@
 # ISSUES
-- [] Especificar tarefas e escopo
+- [x] Especificar tarefas e escopo
 
 
 ---
-- [] **Configurações Spring JPA**
-  - [] dependencias POM.xml
-  - [] classes Spring Framework 
-    - [] SpringInitConfig
-    - [] SpringJpaConfig
-    - [] SpringRootConfig
+### CONFIGURACOES
+- [x] **Configurações Spring**
+  - [x] dependencias POM.xml
+  - [x] classes Spring Framework 
+    - [x] SpringInitConfig (substitui o WEB.xml)
+    - [x] SpringJpaConfig
+    - [x] SpringRootConfig
+
+- [x] **Apache tomcat 7 (2.2)**
+ - [x] dependencia POM.xml 
+ 
+- [x] **MySQL** 
+  - [x] dependencia POM.xml
+  
+---
+### DOMINIO
+- [x] **Classes de Domínio (Beans)**
+  - [x] CaixaAtm
+  - [x] Conta
+  - [x] MovimentoCaixa
+  - [x] MovimentoConta
+  - [x] StatusCaixa (Enum)
+  - [x] TipoMovimento (Enum)
+ 
