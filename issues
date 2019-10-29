@@ -41,13 +41,13 @@
 
 ---
 ### CONTROLER
-- [] **Classe responsavel por disponibilizar os servicos do Caixa ATM**
-  - [] Metodo cadastrar caixa ATM
-  - [] Abertura de caixa
-  - [] Cadastrar conta
-  - [] Cadastrar movimento de caixa
-  - [] Emitir extrato
-  - [] Fechar caixa (Relatorio de fechamento)
+- [x] **Classe responsavel por disponibilizar os servicos do Caixa ATM**
+  - [x] Metodo cadastrar caixa ATM
+  - [x] Abertura de caixa
+  - [x] Cadastrar conta
+  - [x] Cadastrar movimento de caixa
+  - [x] Emitir extrato
+  - [x] Fechar caixa (Relatorio de fechamento)
   
   
   
@@ -55,6 +55,7 @@
  ---
  ## EXTRAS
  - [ ] Docker
+ - [x] Processo de resolução do desafio
   
   
  ---
