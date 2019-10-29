@@ -56,12 +56,12 @@
   
  ---
  ## EXTRAS
- - [ ] Docker
- - [x] Processo de resolução do desafio
+ - [ ] Docker 
+ - [x] Processo de resolução do desafio: README-LUCAS.md
   
   
  ---
  ## PROBLEMAS
- - [] Problemas entre versão JDK e tomcat.
+ - [ ] Problemas entre versão JDK e tomcat.
 
  
