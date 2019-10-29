@@ -18,12 +18,33 @@
   - [x] dependencia POM.xml
   
 ---
-### DOMINIO
-- [x] **Classes de Domínio (Beans)**
+### DOMINIO 
+- [x] **Classes de Domínio (Beans/Entidades)**
   - [x] CaixaAtm
   - [x] Conta
   - [x] MovimentoCaixa
   - [x] MovimentoConta
   - [x] StatusCaixa (Enum)
   - [x] TipoMovimento (Enum)
+  
+---
+### DAO
+- [] **Classes DAO**
+  - [] Implementacoes
+
+---
+### SERVICO
+- [] **Classes de Servico**
+  - [] Implementacoes
+
+---
+### CONTROLER
+- [] **Classe responsavel por disponibilizar os servicos do Caixa ATM
+  - [] Metodo cadastrar caixa ATM
+  - [] Abertura de caixa
+  - [] Cadastrar conta
+  - [] Cadastrar movimento de caixa
+  - [] Emitir extrato
+  - [] Fechar caixa (Relatorio de fechamento)
+
  
