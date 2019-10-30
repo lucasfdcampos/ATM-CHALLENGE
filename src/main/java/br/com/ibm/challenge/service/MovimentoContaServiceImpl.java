@@ -30,6 +30,10 @@ public class MovimentoContaServiceImpl implements MovimentoContaService {
     @Override
     public List<MovimentoConta> findAllByConta(Conta conta) throws Exception {
 
+        if (conta ==  null) {
+            throw new Exception("Conta invalida.");
+        }
+
         // Verifica a conta do cliente
         Conta contaPesquisa = contaService.findByCodAgenciaNumConta(conta.getCodigoAgencia(), conta.getNumeroConta());
 
