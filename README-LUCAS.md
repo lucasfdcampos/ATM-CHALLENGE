@@ -75,14 +75,19 @@ Método responsável por salvar movimento de caixa com operações de DEPOSITO, 
 
 **Método: cadastrarMovimentoCaixa**
 - POST localhost:8080/rest/atm/movimentoCaixa
+
 // DEPOSITO - CHEQUE
 - { "caixaAtm" : 1, "conta": 1, "tipoMovimento": 0, "valor": 200,00 }
+
 // DEPOSITO - DINHEIRO
 - { "caixaAtm" : 1, "conta": 1, "tipoMovimento": 1, "valor": 250,00 }
+
 // SAQUE
 - { "caixaAtm" : 1, "conta": 1, "tipoMovimento": 2, "valor": 100,00 }
+
 // TRANSFERENCIA 
 - { "caixaAtm" : 1, "conta": 1, "tipoMovimento": 3, "valor": 600,00, "contaDestino": 2 }
+
 
 Neste método foram criados diversas exceções, como por exemplo, a validação se o caixa ATM existe e é válido, se está aberto, se a conta do cliente é válida e existe na base de dados. 
 Para os tipos de movimento SAQUE e TRANSFERENCIA é verificado o saldo da conta do cliente, e para caso de SAQUE, verifica se o valor é maior que R$10,00 e o módulo do valor por 10 seja 0 (zero) para permitir a operação. Caso as informações para saque estejam corretas, através do método calcularCedulas é verificado quais serão as cédulas (por quantidade) conforme o valor da operação.
