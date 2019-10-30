@@ -208,6 +208,9 @@ public class MovimentoCaixaServiceImpl implements MovimentoCaixaService {
     @Override
     public List<MovimentoCaixa> findAllByCaixaAtm(CaixaAtm caixaAtm) throws Exception {
         // Verifica caixa ATM
+        if (caixaAtm == null) {
+            throw new Exception("Caixa ATM invalido");
+        }
         CaixaAtm caixaFechar = caixaAtmService.findById(caixaAtm.getId());
 
         if (caixaFechar == null) {
