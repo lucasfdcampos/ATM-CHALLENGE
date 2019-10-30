@@ -43,6 +43,10 @@ public class BancoRestController {
         caixaAtmService.save(caixaAtm);
     }
 
+    /**
+     * Metodo responsavel pela abertura do Caixa ATM
+     * @param caixaAtm
+     */
     @PostMapping(value = "aberturaCaixaAtm")
     @ResponseStatus(HttpStatus.CREATED)
     public void abrirCaixaAtm(@RequestBody CaixaAtm caixaAtm) throws Exception {
@@ -63,7 +67,7 @@ public class BancoRestController {
     private MovimentoContaService movimentoContaService;
 
     /**
-     * Metodo responsavel pelo cadastro de conta
+     * Metodo responsavel pelo cadastro de conta do cliente
      * @param conta
      */
     @PostMapping(value = "cadastroConta")
