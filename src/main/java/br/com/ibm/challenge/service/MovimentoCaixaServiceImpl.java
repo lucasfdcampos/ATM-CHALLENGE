@@ -36,6 +36,11 @@ public class MovimentoCaixaServiceImpl implements MovimentoCaixaService {
     @Override
     public void save(MovimentoCaixa movimentoCaixa) throws Exception {
 
+        // Verifica o objeto movimentoCaixa
+        if (movimentoCaixa == null) {
+            throw new Exception("Movimento de Caixa invalido.");
+        }
+
         // Verifica caixa ATM
         if (movimentoCaixa.getCaixaAtm() == null) {
             throw new Exception("Caixa ATM invalido.");
@@ -44,6 +49,7 @@ public class MovimentoCaixaServiceImpl implements MovimentoCaixaService {
             throw new Exception("Caixa ATM inexistente.");
         }
 
+        // Caixa ATM
         movimentoCaixa.setCaixaAtm(caixaAtmService.findById(movimentoCaixa.getCaixaAtm().getId()));
 
         // Verifica o status do caixa ATM
