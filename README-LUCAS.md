@@ -9,6 +9,10 @@ Identifiquei as classes de domínio (beans/entidades) que seriam necessárias pa
 - **MovimentoConta**: representa o modelo de dados de cada movimento de conta.
 - **MovimentoCaixa**: representa o modelo de dados de cada movimento do Caixa ATM no banco.
 
+- **TipoMovimento**: ENUM [ DEPOSITO_CHEQUE, DEPOSITO_DINHEIRO, SAQUE, TRANSFERENCIA ].
+- **StatusCaixa**: ENUM [ ABERTO, FECHADO ].
+
+
 ### **Classes de persistência** ###
 
 Como proposta de desenvolvimento, utilizei o padrão de projeto com classes DAO (Data Access Object) e trabalhei com as instruções baseadas em JPA com injeção de dependências a partir de interfaces DAO. São elas:
